@@ -13,17 +13,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("foo", 3, 10) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 2);
             Assert.AreEqual(app.Items[0].Quality, 9);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 1);
             Assert.AreEqual(app.Items[0].Quality, 8);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 7);
@@ -35,17 +35,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("foo", 3, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 2);
             Assert.AreEqual(app.Items[0].Quality, 0);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 1);
             Assert.AreEqual(app.Items[0].Quality, 0);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 0);
@@ -57,17 +57,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("foo", 0, 7) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -1);
             Assert.AreEqual(app.Items[0].Quality, 5);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -2);
             Assert.AreEqual(app.Items[0].Quality, 3);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -3);
             Assert.AreEqual(app.Items[0].Quality, 1);
@@ -79,17 +79,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("foo", 0, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -1);
             Assert.AreEqual(app.Items[0].Quality, 0);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -2);
             Assert.AreEqual(app.Items[0].Quality, 0);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -3);
             Assert.AreEqual(app.Items[0].Quality, 0);
@@ -102,17 +102,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Aged Brie", 3, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 2);
             Assert.AreEqual(app.Items[0].Quality, 1);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 1);
             Assert.AreEqual(app.Items[0].Quality, 2);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 3);
@@ -124,17 +124,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Aged Brie", 3, 50) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 2);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 1);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 50);
@@ -146,17 +146,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Aged Brie", 0, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -1);
             Assert.AreEqual(app.Items[0].Quality, 2);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -2);
             Assert.AreEqual(app.Items[0].Quality, 4);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -3);
             Assert.AreEqual(app.Items[0].Quality, 6);
@@ -169,17 +169,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Aged Brie", 0, 50) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -1);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -2);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -3);
             Assert.AreEqual(app.Items[0].Quality, 50);
@@ -192,17 +192,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 13, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 12);
             Assert.AreEqual(app.Items[0].Quality, 1);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 11);
             Assert.AreEqual(app.Items[0].Quality, 2);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 10);
             Assert.AreEqual(app.Items[0].Quality, 3);
@@ -214,17 +214,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 13, 50) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 12);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 11);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 10);
             Assert.AreEqual(app.Items[0].Quality, 50);
@@ -236,17 +236,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 8, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 7);
             Assert.AreEqual(app.Items[0].Quality, 2);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 6);
             Assert.AreEqual(app.Items[0].Quality, 4);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 5);
             Assert.AreEqual(app.Items[0].Quality, 6);
@@ -258,17 +258,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 8, 50) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 7);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 6);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 5);
             Assert.AreEqual(app.Items[0].Quality, 50);
@@ -280,17 +280,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 3, 0) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 2);
             Assert.AreEqual(app.Items[0].Quality, 3);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 1);
             Assert.AreEqual(app.Items[0].Quality, 6);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 9);
@@ -302,17 +302,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 3, 50) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 2);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 1);
             Assert.AreEqual(app.Items[0].Quality, 50);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 50);
@@ -324,7 +324,7 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 0, 10) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -1);
             Assert.AreEqual(app.Items[0].Quality, 0);
@@ -336,7 +336,7 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 0, 50) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, -1);
             Assert.AreEqual(app.Items[0].Quality, 0);
@@ -349,17 +349,17 @@ namespace GildedRoseItems.UnitTest
             Item[] Items = new Item[] { new Item("Sulfuras, Hand of Ragnaros", 0, 80) };
             GildedRoseProcessor app = new GildedRoseProcessor(Items);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 80);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 80);
 
-            app.updateQuality();
+            app.UpdateQuality();
 
             Assert.AreEqual(app.Items[0].SellIn, 0);
             Assert.AreEqual(app.Items[0].Quality, 80);

@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose.UnitTest\\GildedRose.UnitTest.csproj": {}
+    "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose.UnitTest/GildedRose.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose.UnitTest\\GildedRose.UnitTest.csproj": {
+    "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose.UnitTest/GildedRose.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose.UnitTest\\GildedRose.UnitTest.csproj",
+        "projectUniqueName": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose.UnitTest/GildedRose.UnitTest.csproj",
         "projectName": "GildedRose.UnitTest",
-        "projectPath": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose.UnitTest\\GildedRose.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose.UnitTest\\obj\\",
+        "projectPath": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose.UnitTest/GildedRose.UnitTest.csproj",
+        "packagesPath": "/Users/mcam/.nuget/packages/",
+        "outputPath": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose.UnitTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mcam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose\\GildedRose.Main.csproj": {
-                "projectPath": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose\\GildedRose.Main.csproj"
+              "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose/GildedRose.Main.csproj": {
+                "projectPath": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose/GildedRose.Main.csproj"
               }
             }
           }
@@ -41,8 +39,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -71,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,33 +79,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose\\GildedRose.Main.csproj": {
+    "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose/GildedRose.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose\\GildedRose.Main.csproj",
+        "projectUniqueName": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose/GildedRose.Main.csproj",
         "projectName": "GildedRose.Main",
-        "projectPath": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose\\GildedRose.Main.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\source\\repos\\QuarinNicolas\\Nexios-GildedRose-csharp\\GildedRose\\obj\\",
+        "projectPath": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose/GildedRose.Main.csproj",
+        "packagesPath": "/Users/mcam/.nuget/packages/",
+        "outputPath": "/Users/mcam/Documents/Nexios/Bootcamps/Refactoring/temp/Nexios-GildedRose-csharp/GildedRose/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mcam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -117,15 +114,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -134,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

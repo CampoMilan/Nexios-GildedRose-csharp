@@ -51,7 +51,7 @@ namespace GildedRose.Console
                     System.Console.WriteLine(app.Items[j].Name + ", " + app.Items[j].SellIn + ", " + app.Items[j].Quality);
                 }
                 System.Console.WriteLine("");
-                app.updateQuality();
+                app.UpdateQuality();
             }
             System.Console.ReadKey();
 
